@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mvo\Documents\GitHub\BroxFlow\build\CMakeFiles\9a1477576b632a438ef2bab36ec06e5d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{052681B5-ACD2-4D7C-954E-732D86A5755A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

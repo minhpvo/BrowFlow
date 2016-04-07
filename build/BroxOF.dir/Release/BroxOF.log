@@ -1,0 +1,13 @@
+﻿Build started 4/2/2016 7:23:39 PM.
+     1>Project "C:\Users\mvo\Documents\GitHub\BroxFlow\build\BroxOF.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mvo\Documents\GitHub\BroxFlow\build\Release\BroxOF.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_videostab249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_ts249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_superres249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_stitching249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_contrib249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_nonfree249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_ocl249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_gpu249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_photo249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_objdetect249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_legacy249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_video249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_ml249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_calib3d249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_features2d249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_highgui249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_imgproc249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_flann249.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Release\opencv_core249.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/mvo/Documents/GitHub/BroxFlow/build/Release/BroxOF.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/mvo/Documents/GitHub/BroxFlow/build/Release/BroxOF.lib" /MACHINE:X64  /machine:x64 BroxOF.dir\Release\main.obj
+         BroxOF.dir\Release\GaussianPyramid.obj
+         BroxOF.dir\Release\OpticalFlow.obj
+         BroxOF.dir\Release\Stochastic.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\mvo\Documents\GitHub\BroxFlow\build\Release\BroxOF.exe'
+     1>Done Building Project "C:\Users\mvo\Documents\GitHub\BroxFlow\build\BroxOF.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.08

@@ -1,0 +1,121 @@
+﻿Build started 10/19/2015 3:17:54 AM.
+     1>Project "C:\Users\mvo\Documents\GitHub\BroxFlow\build\BroxOF.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Research\OpenSoft\opencv249\sources\Build /IC:\Research\OpenSoft\opencv249\sources\include /IC:\Research\OpenSoft\opencv249\sources\include\opencv /IC:\Research\OpenSoft\opencv249\sources\modules\core\include /IC:\Research\OpenSoft\opencv249\sources\modules\flann\include /IC:\Research\OpenSoft\opencv249\sources\modules\imgproc\include /IC:\Research\OpenSoft\opencv249\sources\modules\highgui\include /IC:\Research\OpenSoft\opencv249\sources\modules\features2d\include /IC:\Research\OpenSoft\opencv249\sources\modules\calib3d\include /IC:\Research\OpenSoft\opencv249\sources\modules\ml\include /IC:\Research\OpenSoft\opencv249\sources\modules\video\include /IC:\Research\OpenSoft\opencv249\sources\modules\legacy\include /IC:\Research\OpenSoft\opencv249\sources\modules\objdetect\include /IC:\Research\OpenSoft\opencv249\sources\modules\photo\include /IC:\Research\OpenSoft\opencv249\sources\modules\gpu\include /IC:\Research\OpenSoft\opencv249\sources\modules\ocl\include /IC:\Research\OpenSoft\opencv249\sources\modules\nonfree\include /IC:\Research\OpenSoft\opencv249\sources\modules\contrib\include /IC:\Research\OpenSoft\opencv249\sources\modules\stitching\include /IC:\Research\OpenSoft\opencv249\sources\modules\superres\include /IC:\Research\OpenSoft\opencv249\sources\modules\ts\include /IC:\Research\OpenSoft\opencv249\sources\modules\videostab\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"BroxOF.dir\Debug\\" /Fd"BroxOF.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\main.cpp
+         main.cpp
+     1>c:\users\mvo\documents\github\broxflow\Stochastic.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\research\opensoft\opencv249\sources\modules\flann\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\mvo\documents\github\broxflow\NoiseModel.h(6): warning C4005: 'PI' : macro redefinition
+                 c:\users\mvo\documents\github\broxflow\Stochastic.h(16) : see previous definition of 'PI'
+     1>..\main.cpp(14): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>..\main.cpp(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\main.cpp(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\main.cpp(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(185): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(195): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(207): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(216): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(218): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(228): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(229): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>..\main.cpp(232): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\mvo\documents\github\broxflow\Image.h(715): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\mvo\documents\github\broxflow\Image.h(709) : while compiling class template member function 'bool Image<double>::imresize(double)'
+                 c:\users\mvo\documents\github\broxflow\OpticalFlow.h(72) : see reference to class template instantiation 'Image<double>' being compiled
+     1>c:\users\mvo\documents\github\broxflow\Image.h(716): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mvo\documents\github\broxflow\Image.h(806): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 c:\users\mvo\documents\github\broxflow\Image.h(804) : while compiling class template member function 'bool Image<double>::saveImage(std::ofstream &) const'
+     1>c:\users\mvo\documents\github\broxflow\Image.h(846): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(252) : see declaration of 'strcmpi'
+                 c:\users\mvo\documents\github\broxflow\Image.h(832) : while compiling class template member function 'bool Image<double>::loadImage(std::ifstream &)'
+     1>c:\users\mvo\documents\github\broxflow\Image.h(847): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\mvo\documents\github\broxflow\Image.h(848): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(252) : see declaration of 'strcmpi'
+     1>c:\users\mvo\documents\github\broxflow\Image.h(849): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\mvo\documents\github\broxflow\Image.h(850): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(252) : see declaration of 'strcmpi'
+     1>c:\users\mvo\documents\github\broxflow\ImageProcessing.h(205): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\mvo\documents\github\broxflow\Image.h(719) : see reference to function template instantiation 'void ImageProcessing::ResizeImage<T,T>(const T1 *,T2 *,int,int,int,double)' being compiled
+                 with
+                 [
+                     T=double
+         ,            T1=double
+         ,            T2=double
+                 ]
+                 c:\users\mvo\documents\github\broxflow\Image.h(709) : while compiling class template member function 'bool Image<double>::imresize(double)'
+     1>c:\users\mvo\documents\github\broxflow\ImageProcessing.h(206): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mvo\documents\github\broxflow\ImageIO.h(49): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\mvo\documents\github\broxflow\Image.h(877) : see reference to function template instantiation 'bool ImageIO::loadImage<T>(const char *,T *&,int &,int &,int &)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\mvo\documents\github\broxflow\Image.h(875) : while compiling class template member function 'bool Image<double>::imread(const char *)'
+                 ..\main.cpp(131) : see reference to function template instantiation 'bool Image<double>::imread(const char *)' being compiled
+     1>c:\users\mvo\documents\github\broxflow\ImageIO.h(73): warning C4305: 'return' : truncation from 'int' to 'bool'
+                 c:\users\mvo\documents\github\broxflow\Image.h(925) : see reference to function template instantiation 'bool ImageIO::saveImage<T>(const char *,const T *,int,int,int,ImageIO::ImageType)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\mvo\documents\github\broxflow\Image.h(924) : while compiling class template member function 'bool Image<double>::imwrite(const char *,ImageIO::ImageType) const'
+     1>c:\users\mvo\documents\github\broxflow\ImageIO.h(115): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mvo\documents\github\broxflow\ImageIO.h(121): warning C4244: '=' : conversion from 'const double' to 'uchar', possible loss of data
+     1>c:\users\mvo\documents\github\broxflow\ImageIO.h(123): warning C4244: '=' : conversion from 'const double' to 'uchar', possible loss of data
+     1>c:\users\mvo\documents\github\broxflow\ImageIO.h(133): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>c:\users\mvo\documents\github\broxflow\ImageProcessing.h(130): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\mvo\documents\github\broxflow\ImageProcessing.h(218) : see reference to function template instantiation 'void ImageProcessing::BilinearInterpolate<T1,T2>(const T1 *,int,int,int,double,double,T2 *)' being compiled
+                 with
+                 [
+                     T1=double
+         ,            T2=double
+                 ]
+                 c:\users\mvo\documents\github\broxflow\Image.h(719) : see reference to function template instantiation 'void ImageProcessing::ResizeImage<T,T>(const T1 *,T2 *,int,int,int,double)' being compiled
+                 with
+                 [
+                     T=double
+         ,            T1=double
+         ,            T2=double
+                 ]
+     1>c:\users\mvo\documents\github\broxflow\ImageProcessing.h(131): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mvo\Documents\GitHub\BroxFlow\build\Debug\BroxOF.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_videostab249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_video249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_ts249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_superres249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_stitching249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_photo249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_ocl249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_objdetect249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_nonfree249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_ml249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_legacy249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_imgproc249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_highgui249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_gpu249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_flann249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_features2d249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_core249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_contrib249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_calib3d249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_nonfree249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_ocl249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_gpu249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_photo249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_objdetect249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_legacy249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_video249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_ml249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_calib3d249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_features2d249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_highgui249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_imgproc249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_flann249d.lib C:\Research\OpenSoft\opencv249\sources\Build\lib\Debug\opencv_core249d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/mvo/Documents/GitHub/BroxFlow/build/Debug/BroxOF.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/mvo/Documents/GitHub/BroxFlow/build/Debug/BroxOF.lib" /MACHINE:X64  /machine:x64 /debug BroxOF.dir\Debug\main.obj
+         BroxOF.dir\Debug\GaussianPyramid.obj
+         BroxOF.dir\Debug\OpticalFlow.obj
+         BroxOF.dir\Debug\Stochastic.obj
+         BroxOF.vcxproj -> C:\Users\mvo\Documents\GitHub\BroxFlow\build\Debug\BroxOF.exe
+     1>Done Building Project "C:\Users\mvo\Documents\GitHub\BroxFlow\build\BroxOF.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.75
